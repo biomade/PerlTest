@@ -17,7 +17,7 @@ namespace Perl_Test
         private static string CallPerlScript()
         {
             ProcessStartInfo perlStartInfo = new ProcessStartInfo(@"C:\Users\lauri\Strawberry\perl\bin\perl.exe");
-            perlStartInfo.Arguments = @"C:\Users\lauri\Repos\PerlTest\PerlTest\perlTest.pl" ;
+            perlStartInfo.Arguments = @"C:\Users\lauri\Repos\PerlTest\PerlTest\perlTest.pl from_C#" ;
             perlStartInfo.UseShellExecute = false;
             perlStartInfo.RedirectStandardOutput = true;
             perlStartInfo.RedirectStandardError = true;
